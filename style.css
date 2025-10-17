@@ -668,3 +668,14 @@ body {
         font-size: 2rem;
     }
 }
+
+.topper-image-container img {
+    display: block;
+    width: 100%;
+    /* This is the key line for horizontal centering */
+    margin: 0 auto; 
+}
+/* You may also want to center the text in the card */
+.topper-card {
+    text-align: center;
+}
